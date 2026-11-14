@@ -6,9 +6,9 @@ This is Phase 1 of a larger project: a Li-Fi system using **OFDM**, with a Veril
 
 ## Demo
 
-![Li-Fi demo: light on 10/10, light blocked, light on again 10/10](media/lifi_demo.gif)
+![Li-Fi demo: light on 10/10, paper blocking 0/10, light on again 10/10](media/lifi_demo.gif)
 
-Phone camera (top) synced with the terminal (bottom) running `demo.py`: all messages arrive while the LED shines on the photodiode, start failing (`\x00`) as a card is slid between them, and all arrive again in the final light-on run. In this take the card was removed early, so some failures in the blocked run happen after it leaves the frame (most likely the LED was nudged off the photodiode). The controlled test in [Results](#results), with the light fully blocked, gives 0/20 at every baud rate. [Full-quality video](media/lifi_demo.mp4)
+Phone camera (top) synced with the terminal (bottom) running `demo.py`: **10/10** messages with the light on, **0/10** while a sheet of paper blocks the light, and **10/10** again once it is removed. The idle 20-second countdowns are cut out, and the phone recording ends a few seconds before the final test finishes (the terminal shows the result). [Full-quality video](media/lifi_demo.mp4)
 
 ![Breadboard: CP2102, BC547 LED driver, BPW34 photodiode and LM393 comparator](media/breadboard.jpg)
 
