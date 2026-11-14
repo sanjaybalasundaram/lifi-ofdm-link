@@ -1,0 +1,28 @@
+Li-Fi Phase 1 - UART over visible light (OOK)
+Date: 2026-11-14
+Setup: 5mm red LED touching BPW34 photodiode, covered from room light
+Test: 20 x "Hello Li-Fi from Sanjay" (23 bytes) per baud rate
+
+--- Run A: light path open ---
+  1200 baud: 20/20 correct
+  2400 baud: 20/20 correct
+  4800 baud: 20/20 correct
+  9600 baud: 20/20 correct
+ 19200 baud: 20/20 correct
+ 38400 baud: 20/20 correct
+ 57600 baud: 20/20 correct
+115200 baud: 20/20 correct
+
+--- Run B: light path blocked with paper (control) ---
+  1200 baud: 0/20 correct
+  2400 baud: 0/20 correct
+  4800 baud: 0/20 correct
+  9600 baud: 0/20 correct
+ 19200 baud: 0/20 correct
+ 38400 baud: 0/20 correct
+ 57600 baud: 0/20 correct
+115200 baud: 0/20 correct
+
+Note: an earlier run with the LED not fixed in place gave inconsistent
+results (e.g. 9600 baud 0/20). After taping the LED to the photodiode and
+shielding from room light, all rates were 20/20.
