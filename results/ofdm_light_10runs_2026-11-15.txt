@@ -1,0 +1,149 @@
+$ python ofdm_light.py --runs 10
+====================================================
+ OFDM over light  |  LED -> photodiode -> sound card
+====================================================
+ 35 subcarriers, QPSK, 3 data symbols, 1.36 s
+
+---------------- run 1 of 10 ----------------
+ Output : External Headphones
+ Input  : USB Audio Device
+
+ One copy alone    : 6 / 184 bit errors
+ After averaging 24 copies:
+ Sync peak strength : 151x (above ~20 is good)
+ Signal quality     : 19.0 dB
+ Sent     : Hello Li-Fi from Sanjay
+ Received : Hello Li-Fi from Sanjay
+ Bit errors: 0 / 184
+ RESULT   : SUCCESS - text received through light!
+ Plot saved: results/ofdm_light.png
+
+---------------- run 2 of 10 ----------------
+ Output : External Headphones
+ Input  : USB Audio Device
+
+ One copy alone    : 12 / 184 bit errors
+ After averaging 24 copies:
+ Sync peak strength : 148x (above ~20 is good)
+ Signal quality     : 17.8 dB
+ Sent     : Hello Li-Fi from Sanjay
+ Received : Hello Li-Fi from Sanjay
+ Bit errors: 0 / 184
+ RESULT   : SUCCESS - text received through light!
+ Plot saved: results/ofdm_light.png
+
+---------------- run 3 of 10 ----------------
+ Output : External Headphones
+ Input  : USB Audio Device
+
+ One copy alone    : 15 / 184 bit errors
+ After averaging 24 copies:
+ Sync peak strength : 151x (above ~20 is good)
+ Signal quality     : 17.8 dB
+ Sent     : Hello Li-Fi from Sanjay
+ Received : Hello Li-Fi from Sanjay
+ Bit errors: 0 / 184
+ RESULT   : SUCCESS - text received through light!
+ Plot saved: results/ofdm_light.png
+
+---------------- run 4 of 10 ----------------
+ Output : External Headphones
+ Input  : USB Audio Device
+
+ One copy alone    : 23 / 184 bit errors
+ After averaging 24 copies:
+ Sync peak strength : 148x (above ~20 is good)
+ Signal quality     : 18.3 dB
+ Sent     : Hello Li-Fi from Sanjay
+ Received : Hello Li-Fi from Sanjay
+ Bit errors: 0 / 184
+ RESULT   : SUCCESS - text received through light!
+ Plot saved: results/ofdm_light.png
+
+---------------- run 5 of 10 ----------------
+ Output : External Headphones
+ Input  : USB Audio Device
+
+ One copy alone    : 9 / 184 bit errors
+ After averaging 24 copies:
+ Sync peak strength : 147x (above ~20 is good)
+ Signal quality     : 18.9 dB
+ Sent     : Hello Li-Fi from Sanjay
+ Received : Hello Li-Fi from Sanjay
+ Bit errors: 0 / 184
+ RESULT   : SUCCESS - text received through light!
+ Plot saved: results/ofdm_light.png
+
+---------------- run 6 of 10 ----------------
+ Output : External Headphones
+ Input  : USB Audio Device
+
+ One copy alone    : 28 / 184 bit errors
+ After averaging 24 copies:
+ Sync peak strength : 149x (above ~20 is good)
+ Signal quality     : 17.2 dB
+ Sent     : Hello Li-Fi from Sanjay
+ Received : Hello Li-Fi from Sanjay
+ Bit errors: 0 / 184
+ RESULT   : SUCCESS - text received through light!
+ Plot saved: results/ofdm_light.png
+
+---------------- run 7 of 10 ----------------
+ Output : External Headphones
+ Input  : USB Audio Device
+
+ One copy alone    : 3 / 184 bit errors
+ After averaging 24 copies:
+ Sync peak strength : 145x (above ~20 is good)
+ Signal quality     : 19.1 dB
+ Sent     : Hello Li-Fi from Sanjay
+ Received : Hello Li-Fi from Sanjay
+ Bit errors: 0 / 184
+ RESULT   : SUCCESS - text received through light!
+ Plot saved: results/ofdm_light.png
+
+---------------- run 8 of 10 ----------------
+ Output : External Headphones
+ Input  : USB Audio Device
+
+ One copy alone    : 22 / 184 bit errors
+ After averaging 24 copies:
+ Sync peak strength : 143x (above ~20 is good)
+ Signal quality     : 17.7 dB
+ Sent     : Hello Li-Fi from Sanjay
+ Received : Hello Li-Fi from Sanjay
+ Bit errors: 0 / 184
+ RESULT   : SUCCESS - text received through light!
+ Plot saved: results/ofdm_light.png
+
+---------------- run 9 of 10 ----------------
+ Output : External Headphones
+ Input  : USB Audio Device
+
+ One copy alone    : 26 / 184 bit errors
+ After averaging 24 copies:
+ Sync peak strength : 146x (above ~20 is good)
+ Signal quality     : 16.1 dB
+ Sent     : Hello Li-Fi from Sanjay
+ Received : Hello Li-Fi from Sanjay
+ Bit errors: 0 / 184
+ RESULT   : SUCCESS - text received through light!
+ Plot saved: results/ofdm_light.png
+
+---------------- run 10 of 10 ----------------
+ Output : External Headphones
+ Input  : USB Audio Device
+
+ One copy alone    : 2 / 184 bit errors
+ After averaging 24 copies:
+ Sync peak strength : 148x (above ~20 is good)
+ Signal quality     : 18.0 dB
+ Sent     : Hello Li-Fi from Sanjay
+ Received : Hello Li-Fi from Sanjay
+ Bit errors: 0 / 184
+ RESULT   : SUCCESS - text received through light!
+ Plot saved: results/ofdm_light.png
+
+====================================================
+ RELIABILITY: 10 / 10 packets received with 0 bit errors
+====================================================

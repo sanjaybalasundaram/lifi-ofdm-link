@@ -1,0 +1,2 @@
+OFDM over light: 10/10 packets error-free
+35 subcarriers, QPSK, 24 copies averaged
